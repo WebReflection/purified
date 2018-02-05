@@ -5,6 +5,7 @@
   "browser": "min.js",
   "main": "cjs/index.js",
   "scripts": {
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
     "test": "istanbul cover ./test"
   },
   "repository": {
