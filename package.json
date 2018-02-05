@@ -17,7 +17,8 @@
     "methods",
     "trap",
     "invoke",
-    "apply"
+    "apply",
+    "Reflect"
   ],
   "author": "Andrea Giammarchi",
   "license": "ISC",

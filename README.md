@@ -2,9 +2,11 @@
 
 Purity and safety for methods invokes.
 
+The power of [Reflect.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/apply) brought through natural arguments order to every JS engine.
+
 ### purity(context, method[, args])
 ```js
-const safe = require('purified');
+const $ = require('purified');
 
 // trap ASAP methods to trust
 const trim = ''.trim;
@@ -13,8 +15,8 @@ const hasOwnProperty = {}.hasOwnProperty;
 
 // whenever is needed, you can trust your code
 console.log(
-  safe(' abc ', trim),                  // "abc"
-  safe({z: 9}, hasOwnProperty, ['z']),  // true
-  safe(String, fromCharCode, [79, 75])  // "OK
+  $(' abc ', trim),                 // "abc"
+  $({z: 9}, hasOwnProperty, ['z']), // true
+  $(String, fromCharCode, [79, 75]) // "OK
 );
 ```
