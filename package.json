@@ -1,0 +1,32 @@
+{
+  "name": "purified",
+  "version": "0.0.0",
+  "description": "Purity and safety for methods invokes.",
+  "browser": "min.js",
+  "main": "cjs/index.js",
+  "scripts": {
+    "test": "istanbul cover ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/purified.git"
+  },
+  "keywords": [
+    "purity",
+    "safety",
+    "methods",
+    "trap",
+    "invoke",
+    "apply"
+  ],
+  "author": "Andrea Giammarchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebReflection/purified/issues"
+  },
+  "homepage": "https://github.com/WebReflection/purified#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5"
+  }
+}
