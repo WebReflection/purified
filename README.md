@@ -4,7 +4,7 @@ Purity and safety for methods invokes.
 
 The power of [Reflect.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/apply) brought through natural arguments order to every JS engine.
 
-### purity(context, method[, args])
+### purified(context, method[, args])
 ```js
 const $ = require('purified');
 
