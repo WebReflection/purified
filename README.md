@@ -20,3 +20,4 @@ console.log(
   $(String, fromCharCode, [79, 75]) // "OK
 );
 ```
+
